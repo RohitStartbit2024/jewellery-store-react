@@ -1,0 +1,1 @@
+export const homeImage = ['/images/img-1.jpg','/images/img-2.jpg','/images/img-4.jpg','/images/img-9.jpg','/images/img-10.jpg']

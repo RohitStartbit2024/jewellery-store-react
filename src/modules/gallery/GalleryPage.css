@@ -1,0 +1,45 @@
+.image-GP1{
+    background-image: url('/images/accessories-519693_1920.jpg');
+}
+.image-GP2{
+    background-image: url('/images/img-14.jpg');
+}
+.image-GP3{
+    background-image: url('/images/img-6.jpg');
+}
+.image-GP4{
+    background-image: url('/images/necklace-2149668_1920.jpg');
+}
+.image-GP5{
+    background-image: url('/images/woman-1149911_1920.jpg');
+}
+.image-GP6{
+    background-image: url('/images/apatite-669515_1920.jpg');
+}
+.image-GP7{
+    background-image: url('/images/woman-1149909_1920.jpg');
+}
+.image-GP8{
+    background-image: url('/images/pocket-watch-2569573_1920.jpg');
+}
+.image-GP9{
+    background-image: url('/images/wedding-1594957_1920.jpg');
+}
+.image-GP10{
+    background-image: url('/images/pendant-2867205_1920.jpg');
+}
+.image-GP11{
+    background-image: url('/images/img-13.jpg');
+}
+.image-GP12{
+    background-image: url('/images/jewellery-3894073_1920.jpg');
+}
+.image-GP13{
+    background-image: url('/images/img-9.jpg');
+}
+.img-shad{
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0, 0.6);
+}
+.img-shad:hover{
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0, 0);
+}

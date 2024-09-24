@@ -1,0 +1,7 @@
+.desktop li{
+    padding:20px 28px 20px 28px;
+}
+
+input:focus{
+    outline: none;
+}
