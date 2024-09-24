@@ -16,7 +16,7 @@ export default function(){
 
             <Banner bgImage="bg-[url('/images/banner.jpg')]">
                 <div className="md:mx-auto text-start md:container"> 
-                <h1 className="text-xl md:text-7xl font-serif">WINTER SALE</h1>
+                <h1 className="text-xl md:text-7xl font-serif">SUMMER SALE</h1>
                 <p className="text-xs md:text-3xl md:mt-5">JULY 15<sup>TH</sup>-AUGUST 30<sup>TH</sup></p>
                 <ShopNow className="bg-black text-white mt-1 py-1 px-2 text-xs "/>
                 </div>
