@@ -12,7 +12,7 @@ export default function(){
                     <h1 className="font-serif md:text-6xl">All Jewellery</h1>
             </Banner>
 
-            <div className="min-h-screen px-2 md:w-4/5 md:container md:mx-auto py-5 md:py-20">
+            <div className="min-h-screen px-2 md:w-4/5 md:container flex flex-col justify-between md:mx-auto py-5 md:py-20">
                 <ProductTable/>
             </div>
 
