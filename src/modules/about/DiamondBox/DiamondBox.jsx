@@ -1,6 +1,6 @@
 export default function(props){
     return(
-        <div className="px-6 md:px-0 mb-4 md:mb-0 flex md:block">
+        <div className="px-6 md:px-0 mb-5 md:mb-0 flex md:block">
         <div className='h-10 w-10 md:mx-auto md:h-32 md:w-32 bg-teal-100 rotate-45'>
                     <div className='h-10 w-10 md:h-32 md:w-32 flex items-center justify-center bg-teal-400 -rotate-45'>
                         <i className={`fa-solid ${props.className} text-white text-xl md:text-5xl`}></i>
