@@ -87,7 +87,7 @@ export default function(){
 
                 <Title title="RELATED PRODUCTS"/>
 
-                <div className="md:px-12 flex flex-wrap md:flex-nowrap md:gap-4 justify-between">
+                <div className="px-6 flex flex-wrap md:flex-nowrap md:gap-4 justify-between">
                 {(() => {
                     let count = 0;
                     return ProductList?.map((product) => {
