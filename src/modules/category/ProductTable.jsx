@@ -5,18 +5,18 @@ import FilterBar from './FilterBar/FilterBar';
 const ProductTable = () => {
   const[products , setProducts] = useState([])
   const [filteredProducts, setFilteredProducts] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [productsPerPage] = useState(12);
+  const [sortType, setSortType] = useState('default');
   
   function passedArray(updatedProducts){
-    setProducts(updatedProducts)}
+    setProducts(updatedProducts)
+    setCurrentPage(1)}
   
   useEffect(()=>{
     setFilteredProducts(products)
   },[products])
   
-  const [currentPage, setCurrentPage] = useState(1);
-  const [productsPerPage] = useState(12);
-  const [sortType, setSortType] = useState('default');
-
   //show filter mobile
   const[showFilter , setShowFilter] = useState(false);
   function handleShowFilter(){
@@ -65,7 +65,7 @@ const ProductTable = () => {
       </div>
 
       <div className='md:flex'>
-        <div className={`${showFilter?"":"hidden"} md:block md:w-[30%]`}>
+        <div className={`${showFilter?"":"hidden"} md:block mb-3 md:mb-0 md:w-[30%]`}>
           <FilterBar passedArray={passedArray}/>
         </div>
         <div className='md:w-[70%]'>
