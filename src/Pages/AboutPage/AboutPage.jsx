@@ -37,7 +37,7 @@ export default function(){
             </div>
             </div>
 
-            <div className='my-4 md:my-24 p-2 flex md:container md:mx-auto justify-between'>
+            <div className='my-4 md:my-24 p-2 md:flex md:container md:mx-auto justify-between'>
                 {features?.map((feature) =>(
                     <>
                         <DiamondBox className={feature.class}
