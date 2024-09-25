@@ -32,7 +32,7 @@ export default function(props){
             {/* Mobile */}
             <div className='block md:hidden mobile'>
             <div className="flex border-b-2 px-2 justify-between">
-                <div onClick={handleMenu}><i className="fa-solid fa-bars"></i></div>
+                <div onClick={handleMenu}><i className="fa-solid fa-bars text-xs"></i></div>
 
                 <div className='flex items-center text-[10px] gap-2'>
                     <div className='flex px-2  border-2 rounded-full items-center'>
