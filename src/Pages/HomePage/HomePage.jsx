@@ -45,7 +45,7 @@ export default function(){
 
             <Title title='OUR RECOMMENDATIONS'/>
 
-            <div className="md:flex  md:flex-nowrap md:gap-4 justify-between">
+            <div className="flex flex-wrap  md:flex-nowrap md:gap-4 justify-between">
                 {
                     ProductList?.map((product,index)=>{
                         if(index>3&&index<8){

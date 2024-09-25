@@ -24,7 +24,7 @@ export default function(props){
 
             <div className='min-h-screen px-2 md:container md:mx-auto'>
                     {visibleArray?.length == 0 ? <p className='text-center min-h-screen text-red-700  text-xl pt-10'>No Results Found : (</p> :
-                    <div className='flex flex-wrap mt-4 md:mt-16 gap-[3%] md:px-32'>
+                    <div className='flex flex-wrap justify-start mt-4 md:mt-16 gap-[3%] md:px-32'>
                     {visibleArray?.map((product)=>
                         <ProductCard    key={product.sku}
                                         id={product.sku} 
