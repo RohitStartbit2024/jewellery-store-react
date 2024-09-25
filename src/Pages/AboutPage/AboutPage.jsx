@@ -51,7 +51,7 @@ export default function(){
             <div className=' md:px-0 md:container-fluid bg-teal-50'>
             <div className='flex md:mx-auto md:container py-3 md:py-24 my-2 md:my-24 '>
                 <div className='w-1/2 aspect-video flex justify-center md:mr-0'>
-                    <img src={aboutInfo[2].image} alt="image-3" />
+                    <img src={aboutInfo[2].image} alt="image-3" className='max-w-full'/>
                 </div>
                 <div className='w-1/2 pr-2 md:pr-0 md:py-10 text-right'>
                     <h1 className='font-serif text-[12px] md:text-4xl'>{aboutInfo[2].title}</h1>
