@@ -25,7 +25,7 @@ export default function(){
             <div className="px-2 md:container md:mx-auto">
             <div className=" mt-2 md:mt-24 md:flex">
                 <div className="md:w-2/3">
-                    <img src={homeImage[0]} alt="Image-1" className="w-full"/>
+                    <img src={homeImage[0]} alt="Image-1" className="w-full md:h-[53%]"/>
                     <div className="display3 bg-[url('/images/img-3.jpg')] text-white mt-1 px-6 py-2 md:mt-5 md:pl-10 md:pr-24 md:pt-16 md:pb-20 bg-cover bg-center flex justify-between [box-shadow:inset_0_0_0_2000px_rgba(0,0,0,_0.45)]">
                         <div>
                             <h1 className="text-lg md:text-7xl font-mono text-white">Rings</h1>
@@ -39,10 +39,10 @@ export default function(){
                 </div>
                 <div className="mt-1 md:mt-0 flex md:block md:ml-5 gap-2 md:gap-0 md:w-1/3 md:max-h-80">
                     <div className="w-[49%] md:w-full">
-                        <img src={homeImage[1]} alt="Image-2" className="max-w-full object-cover"/>
+                        <img src={homeImage[1]} alt="Image-2" className="max-w-full"/>
                     </div>
                     <div className="md:mt-5 md:max-h-full w-[49%] ml-[2%] md:ml-0 md:w-full">
-                        <img src={homeImage[2]} alt="Image-2" className="max-w-full object-cover"/>
+                        <img src={homeImage[2]} alt="Image-2" className="max-w-full"/>
                     </div> 
                 </div>
             </div>
