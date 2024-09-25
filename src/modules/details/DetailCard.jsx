@@ -60,16 +60,16 @@ export default function(props){
                         <img src={displayImage} alt="display image" className="w-full"/>
                     </div>
                     <div className="w-full flex justify-between mt-2 md:mt-5">
-                        <div className="w-[23%]">
+                        <div className="w-[23%] aspect-square">
                             <img src={image1} alt="image1" onClick={handleImage1} className="h-full"/>
                         </div>
-                        <div className="w-[23%] ">
+                        <div className="w-[23%] aspect-square">
                             <img src={image2} alt="image2" onClick={handleImage2} className="h-full"/>
                         </div>
-                        <div className="w-[23%]">
+                        <div className="w-[23%] aspect-square">
                             <img src={image3} alt="image3" onClick={handleImage3} className="h-full"/>
                         </div>
-                        <div className="w-[23%]">
+                        <div className="w-[23%] aspect-square">
                             <img src={image4} alt="image4" onClick={handleImage4} className="h-full"/>
                         </div>
                     </div>
