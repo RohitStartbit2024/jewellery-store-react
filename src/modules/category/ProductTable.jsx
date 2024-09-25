@@ -43,7 +43,7 @@ const ProductTable = () => {
 
   return (
 
-    <div className="container mx-auto flex flex-col justify-between">
+    <div className="container mx-auto flex flex-col justify-between h-full">
 
     <div>
       <div className="flex justify-between font-semibold text-[8px] text-white md:text-sm  bg-teal-400 mb-3 md:mb-8">
