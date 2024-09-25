@@ -53,9 +53,9 @@ export default function(){
                 <div className='w-1/2 aspect-video flex justify-center md:mr-0'>
                     <img src={aboutInfo[2].image} alt="image-3" className='w-full h-full object-cover'/>
                 </div>
-                <div className='w-1/2 pr-2 md:pr-0 md:py-10 text-right'>
+                <div className='w-1/2 pl-2 md:pl-0 md:py-10 text-right'>
                     <h1 className='font-serif text-[12px] md:text-4xl'>{aboutInfo[2].title}</h1>
-                    <p className='text-[8px] md:text-lg mt-0 md:mt-4'>{aboutInfo[2].detail}</p>
+                    <p className='text-[8px]  md:text-lg mt-0 md:mt-4'>{aboutInfo[2].detail}</p>
                 </div>
             </div>
             </div>
