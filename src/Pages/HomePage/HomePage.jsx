@@ -37,9 +37,13 @@ export default function(){
                         </div>
                     </div>
                 </div>
-                <div className="mt-1 md:mt-0 flex md:block md:ml-5 gap-2 md:gap-0 md:w-1/3 md:max-h-80 aspect-video md:aspect-auto">
-                    <img src={homeImage[1]} alt="Image-2" className="w-[49%] md:w-full"/>
-                    <img src={homeImage[2]} alt="Image-2" className="md:mt-5 md:max-h-full w-[49%] ml-[2%] md:ml-0 md:w-full"/>
+                <div className="mt-1 md:mt-0 flex md:block md:ml-5 gap-2 md:gap-0 md:w-1/3 md:max-h-80">
+                    <div className="w-[49%] md:w-full">
+                        <img src={homeImage[1]} alt="Image-2" className="max-w-full"/>
+                    </div>
+                    <div className="md:mt-5 md:max-h-full w-[49%] ml-[2%] md:ml-0 md:w-full">
+                        <img src={homeImage[2]} alt="Image-2" className="max-w-full"/>
+                    </div> 
                 </div>
             </div>
 
