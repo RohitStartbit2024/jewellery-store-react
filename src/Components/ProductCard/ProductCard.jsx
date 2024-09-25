@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function(props){
     return(
-        <div className='text-center hover:shadow-gray-500 hover:shadow-md w-[45%] ml-[2.5%] md:mx-0 group md:w-[31%] mb-3 aspect-square md:aspect-auto md:h-96'>
+        <div className='text-center hover:shadow-gray-500 hover:shadow-md w-[45%] ml-[2.5%] md:ml-0 group md:w-[31%] mb-3 aspect-square md:aspect-auto md:h-96'>
             <img src={props.image} alt="ProductImage"className="min-w-full h-[50%]"/>
             <h1 className='text-xs md:text-lg md:px-5'>{props.name}</h1>
             <p className='text-xs md:text-sm text-gray-500 uppercase'>{props.category}</p>
