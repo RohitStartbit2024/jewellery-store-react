@@ -57,7 +57,7 @@ export default function(props){
             <div className="md:flex">
                 <div className="w-full md:w-1/2 md:px-20">
                     <div className="w-full aspect-square">
-                        <img src={displayImage} alt="display image" className="w-full"/>
+                        <img src={displayImage} alt="display image" className="w-full h-full object-cover"/>
                     </div>
                     <div className="w-full flex justify-between mt-2 md:mt-5">
                         <div className="w-[23%] aspect-square">
