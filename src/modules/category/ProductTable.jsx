@@ -43,8 +43,9 @@ const ProductTable = () => {
 
   return (
 
-    <div className="container mx-auto">
+    <div className="container mx-auto flex flex-col justify-between">
 
+    <div>
       <div className="flex justify-between font-semibold text-[8px] text-white md:text-sm  bg-teal-400 mb-3 md:mb-8">
         <div className='flex'>
         <div className="py-2 px-1 md:p-5 border-r md:border-r-2 md:border-gray-400">
@@ -85,6 +86,7 @@ const ProductTable = () => {
           </div>
           </div>
       </div>
+    </div>
 
       <div className={`flex text-xs md:text-base justify-center mt-8 space-x-2 `}>
   <button
