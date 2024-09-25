@@ -34,7 +34,7 @@ export default function(props){
             <div className="flex border-b-2 px-2 justify-between">
                 <div onClick={handleMenu}><i className="fa-solid fa-bars text-sm"></i></div>
 
-                <div className='flex items-center text-[10px] gap-2'>
+                <div className='flex items-center text-xs gap-2'>
                     <div className='flex px-2  border-2 rounded-full items-center'>
                         <input className='border-hidden bg-transparent' type="text" value={search} placeholder='Search Products...' onChange={(e)=>setSearch(e.target.value)}/>
                         <i className="fa-solid fa-magnifying-glass mr-1" onClick={handleSearch}></i>
