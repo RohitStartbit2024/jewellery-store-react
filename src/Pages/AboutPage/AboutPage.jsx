@@ -62,7 +62,7 @@ export default function(){
 
             <div className='px-2 md:container md:mx-auto'>
                 <Title title="Our Client Reviews"/>
-                <div className=' flex justify-between'>
+                <div className=' md:flex justify-between'>
                     {reviews?.map((review) =>(
                         <>
                             <Clients name={review.name}
