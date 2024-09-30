@@ -3,6 +3,7 @@ import FeatureProduct from "../../../Components/FeatureProduct/FeatureProduct";
 import { blogs } from "../../../static-data/blogs";
 import { comments } from "../../../static-data/comments";
 import { useEffect, useState } from "react";
+import MultipleTags from '../../../Components/MultipleTags/MultipleTags'
 
 export default function(){
     const [food, setFood] = useState(0)
@@ -96,16 +97,18 @@ export default function(){
                   </p>
             </Link>
             <h1 className="font-serif text-3xl py-3 border-b-4 border-teal-400">Tags</h1>
-            <Link className="flex flex-wrap gap-y-2 justify-between pt-3">
-                  <div className="w-[32%] bg-gray-200 p-2 text-center">Food</div>
+            {/* <div className="flex flex-wrap gap-y-2 justify-between pt-3"> */}
+                  {/* <div className="w-[32%] bg-gray-200 p-2 text-center">Food</div>
                   <div className="w-[32%] bg-gray-200 p-2 text-center">Lifestyle</div>
                   <div className="w-[32%] bg-gray-200 p-2 text-center">Travel</div>
                   <div className="w-[32%] bg-gray-200 p-2 text-center">Adventure</div>
                   <div className="w-[32%] bg-gray-200 p-2 text-center">Business</div>
                   <div className="w-[32%] bg-gray-200 p-2 text-center">Tour</div>
-                  <div className="w-[32%] bg-gray-200 p-2 text-center">Jewellery</div>
-            </Link>
-                
+                  <div className="w-[32%] bg-gray-200 p-2 text-center">Jewellery</div> */}
+                  
+            {/* </div>   */}
+            <div className="mt-6"></div>
+            <MultipleTags/>   
         </div>
     )
 }

@@ -2,6 +2,8 @@ import { useSelector } from 'react-redux'
 import { Link, useNavigate } from 'react-router-dom'
 import {shopDetails} from '../../../static-data/shopDetails'
 import { useState } from 'react'
+import { Autocomplete, TextField } from '@mui/material'
+import {ProductList} from '../../../static-data/ProductList'
 export default function(){
     const login = useSelector((s)=> s.customerDetails.LoggedIn)
     const cartItems = useSelector((s)=>s.cartItems.cart)
@@ -80,10 +82,22 @@ export default function(){
                     <img src={shopDetails.logo} alt="logo" />
                 </Link>
                 <div className='flex items-center gap-5'>
-                    <div className='flex p-2 px-4 border-2 rounded-full items-center'>
-                        <input className='border-hidden bg-transparent text-sm' type="text" placeholder='Search Products...' value={search} onChange={(e)=>setSearch(e.target.value)}/>
-                        <i className="fa-solid fa-magnifying-glass fa-lg" onClick={handleSearch}></i>
-                    </div>
+                <div className='flex py-1 px-4 border-2 rounded-full items-center'>
+                    <Autocomplete   freeSolo
+                                    options={[...new Set(ProductList.map(p => p.name).filter(Boolean))]}
+                                    onInputChange={(event, newInputValue) => {setSearch(newInputValue);}}
+                                    renderInput={(params) => (
+                                        <TextField {...params}
+                                                    className='border-hidden bg-transparent text-sm'
+                                                    placeholder='Search Products...'
+                                                    variant="standard" 
+                                                    InputProps={{ ...params.InputProps,
+                                                                    disableUnderline: true,
+                                                                    className: 'border-hidden bg-transparent text-sm', }}
+                                        />)}
+                    />
+                    <i className="fa-solid fa-magnifying-glass fa-lg" onClick={handleSearch}></i>
+                </div>
                     <Link>
                         <i className="fa-regular fa-heart fa-lg"></i>
                     </Link> 
